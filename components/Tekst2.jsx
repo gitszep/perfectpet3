@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const Tekst = () => {
@@ -9,7 +8,7 @@ const Tekst = () => {
       </h1>
       <div className="max-w-[1240px] mx-auto px-4 text-center">
       <div className='flex justify-center'>
-        <Image src="negro.webp" className='photostyle2' alt="Pet Grooming" />
+        <img src="negro.webp" className='photostyle2' alt="Pet Grooming" />
       </div>
       </div>
        <div>
@@ -79,7 +78,7 @@ Dzięki naszej pracy, Państwa zwierzak będzie nie tylko piękny, ale i szczę�
             <li>Doradztwo z zakresu dalszej pielęgnacji,opracowanie indywidualnego planu pielęgnacji zwierzaka,możliwość zakupu profesjonalnych produktów</li>
         </ul>
           <div className='flex justify-center'>
-            <Image src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
+            <img src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
           </div>
         </div>
       </div>

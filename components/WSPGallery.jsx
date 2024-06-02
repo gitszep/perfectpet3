@@ -47,7 +47,7 @@ const WSPGallery = ({galleryImages}) => {
           <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} />
           <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
           <div className='fullScreenImage'>
-            <Image src={galleryImages[slideNumber].img} alt='' />
+            <img src={galleryImages[slideNumber].img} alt='' />
           </div>
         </div>
       }
@@ -67,7 +67,7 @@ const WSPGallery = ({galleryImages}) => {
                 key={index}
                 onClick={ () => handleOpenModal(index) }
               >
-                <Image src={slide.img} alt='witam' />
+                <img src={slide.img} alt='' />
               </div>
             )
           })

@@ -10,7 +10,7 @@ const Tekst = () => {
       </h1>
       <div className="max-w-[1240px] mx-auto px-4 text-center">
         <div className='flex justify-center'>
-          <Image src="negro.webp" className='photostyle2' alt="Pet Grooming" />
+          <img src="negro.webp" className='photostyle2' alt="Pet Grooming" />
         </div>
       </div>
       <div>

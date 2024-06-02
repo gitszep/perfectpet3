@@ -64,7 +64,7 @@ const Tekst = () => {
             <li>Doradztwo z zakresu dalszej pielęgnacji,opracowanie indywidualnego planu pielęgnacji zwierzaka,możliwość zakupu profesjonalnych produktów</li>
         </ul>
           <div className='flex justify-center'>
-            <Image src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
+            <img src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
           </div>
         </div>
       </div>

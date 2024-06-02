@@ -9,7 +9,7 @@ const Tekst = () => {
       </h1>
       <div className="max-w-[1240px] mx-auto px-4 text-center">
       <div className='flex justify-center'>
-        <Image src="negro.webp" className='photostyle2' alt="Pet Grooming" />
+        <img src="negro.webp" className='photostyle2' alt="Pet Grooming" />
       </div>
       </div>
        <div>
@@ -21,29 +21,8 @@ const Tekst = () => {
           <div className='flex justify-center'>
             {/* img */}
           </div>
-          <p className='py-4 mt-6 '>
-          Studio Perfect Pet powstało z miłości i pasji do zwierząt. <br />
-          Miejsce to zostało stworzone, aby zapewnić Państwa pupilom jak najlepszy komfort psychiczny i fizyczny. <br />
-          Jest bezpieczne, spokojne i pozbawione zapachów weterynarza. <br />
-          Zawsze jest dezynfekowane po każdym kliencie, dbając o higienę i sterylność usług. <br /><br />
-
-          W Perfect Pet nigdy nie podajemy żadnych środków zmieniających świadomość zwierzęcia. <br />
-          Taka usługa może być wykonana jedynie przez lekarza weterynarii po wcześniejszym uzgodnieniu terminu dogodnego dla gabinetu i groomera. <br />
-          Perfect Pet to miejsce nastawione na jakość usług i poczucie estetyki. <br /><br />
-
-          Wykorzystujemy możliwości najlepszego sprzętu renomowanych firm groomerskich. <br />
-          Dzięki użyciu doskonałej jakości profesjonalnych kosmetyków do pielęgnacji zwierząt, efekt końcowy będzie zachwycający. <br />
-          Rozumiemy, jak ważny dla Ciebie jest Twój pupil &#8211; sprawimy, że w naszym studiu będzie bezpieczny i obsługiwany z najwyższą starannością. <br />
-          Państwa zwierzak jest wyjątkowy &#8211; dzięki doskonałemu groomingowi będzie jeszcze piękniejszy. <br />
-          Tuszujemy wady, uwydatniamy zalety. <br /><br />
-
-          W trosce o jak najlepszy standard usług studia, każda stylizacja jest poprzedzona kąpielą w studio. <br />
-          W Perfect Pet dbamy o każdy szczegół, aby zapewnić Państwa pupilom najlepszą możliwą opiekę. <br />
-          Oferujemy szeroki zakres usług pielęgnacyjnych, dostosowanych do indywidualnych potrzeb każdego zwierzaka. <br />
-          Nasz doświadczony zespół groomerów, pasjonatów zwierząt, pracuje z ogromnym zaangażowaniem, aby każdy klient był zadowolony z efektów naszej pracy. <br /><br />
-
-          Zapraszamy do odwiedzenia naszego studia, gdzie miłość do zwierząt łączy się z profesjonalizmem i troską o każdego pupila. <br />
-          Dzięki naszej pracy, Państwa zwierzak będzie nie tylko piękny, ale i szczęśliwy. <br /><br />
+          <p className='py-4 mt-10 '>
+         
 
           Przez całe moje życie towarzyszą mi psy. <br />
           Od najmłodszych lat, obok mnie zawsze chodziły czworonogi &#8211; te z czterema łapami, wilgotnymi nosami i wiecznie merdającymi ogonami. <br />
@@ -72,7 +51,7 @@ const Tekst = () => {
           Strzyżenie nie musi być stresujące.
           </p>
           <div className='flex justify-center'>
-            <Image src="negro.webp" className="photostyle mt-12" alt="Image 1"/>
+            <img src="negro.webp" className="photostyle mt-12" alt="Image 1"/>
           </div>
         </div>
       </div>

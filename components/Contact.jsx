@@ -16,12 +16,12 @@ const Contact = () => {
       </h1>
       <div className="max-w-[1240px] mx-auto px-4 text-center">
         <div className='flex justify-center'>
-          <Image src="negro.webp" className='photostyle2' alt="Pet Grooming" />
+          <img src="negro.webp" className='photostyle2' alt="Pet Grooming" />
         </div>
       </div>
       <div className='max-w-[1240px] m-auto p-4 '>
         <h1 className='text-white hover:text-blue-400 font-bold mt-2 text-center p-4'>Wyślij wiadomość</h1>
-        <form onSubmit={handleSubmit} className='max-w-[600px] m-auto'>
+        <form onSubmit={handleSubmit} className='max-w-[600px] m-auto mb-12'>
           <div  className='grid grid-cols-2 gap-2 mt-10 '>
             <input className='border shadow-lg p-3' type="text" placeholder='Nazwa' name="name" />
             <input className='border shadow-lg p-3' type="email" placeholder='Email' name="email" />

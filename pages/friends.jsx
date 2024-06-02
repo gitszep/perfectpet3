@@ -31,7 +31,7 @@ const about = () => {
 
 
       <div className='flex justify-center'>
-            <Image src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
+            <img src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
           </div>
       
           <div className="flex justify-center items-center mt-10 mb-10">

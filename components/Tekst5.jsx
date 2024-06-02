@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
 
 const Tekst = () => {
   return (
@@ -9,11 +8,12 @@ const Tekst = () => {
       </h1>
       <div className="max-w-[1240px] mx-auto px-4 text-center">
       <div className='flex justify-center'>
-        <Image src="negro.webp" className='photostyle2' alt="Pet Grooming" />
+        <img src="negro.webp" className='photostyle2' alt="Pet Grooming" />
       </div>
       </div>
        <div>
-        <h1 className="text-4xl text-white text-center font-bold mt-10 hover:text-blue-400">Orientacyjny cennik usług studia</h1>
+        <h1 className="text-4xl text-white text-center font-bold mt-10 hover:text-blue-400">          Studio Perfect Pet oferuje
+</h1>
         </div>
 
 
@@ -23,17 +23,67 @@ const Tekst = () => {
           <div className='flex justify-center'>
             {/* img */}
           </div>
-          <p className='py-4 mt-6'>
-              Podane ceny są cenami orientacyjnymi.
-              Ostateczny koszt usługi jest zawsze wyceniany <br /> po obejrzeniu psa
-              i jest zależny od stanu okrywy włosowej, zachowania psa,
-              użytych kosmetyków,<br/> typu usługi oraz życzenia klienta.
-              Usługi niestandardowe są wyceniane dodatkowo.
-            <br/>  Używam najlepszych kosmetyków i preparatów pielęgnacyjnych dla zwierząt.
-              <br/> Dzięki temu mogę zagwarantować dobry efekt pielęgnacyjny.
-             <br/> Aby zapewnić Państwu Najwyższy poziom usług, nie wykonuję strzyżenia bez kąpieli w studio.
+          <ul className='list-disc pl-4'>
+            <h3 className="text-2xl font-bold mt-8 mb-2 hover:text-blue-400 text-white">
+              1.Usługi:
+            </h3>
+            <li>Strzyżenie według wzorców FCI.</li>
+            <li>Stylizacja na indywidualne zyczenie.</li>
+            <li>Strzyżenie psów nierasowych.</li>
+            <li>Strzyżenie psów agresywnych-trudnych-po konsultacji i obejrzeniu psa przy właścicielu.</li>
+            <li>Strzyżenie kotów bez narkozy.</li>
+            <li>Trymowanie –usuwanie martwej okrywy włosowej (spaniele, setery, golden retrivery, teriery).</li>
+            <li>Rozczesywanie skołtunionego włosa i jego regeneracja.</li>
+            <li>Wyczesywanie psów krótkowłosych- tzn sypiach się-jamniki, labradory, mopsy, Beagle, boksery.</li>
+            <li>Kosmetyka: Czyszczenie uszu, depilacja uszu, przycinanie pazurków.</li>
+            <li>Sprzedaż profesjonalnych szamponów, odżywek, akcesoriów do pielęgnacji zwierząt.</li>
+          </ul>
+          <ul className='list-disc pl-4'>
+            <h3 className="text-2xl font-bold mb-2 mt-4 hover:text-blue-400 text-white">
+              Wystawy FCI
+            </h3>
+            <p>
+              Studio Perfect Pet oferuje grooming wystawowy niektórych ras.<br />
+              Specjalizacja Cocker spaniel angielski, Golden Retriever, Sznaucer.<br />
+              Aby umówić inne rasy-Proszę o wcześniejszy kontakt.
             </p>
-          
+          </ul>
+          <ul className='list-disc pl-4'>
+            <h3 className="text-2xl font-bold mb-2 mt-4 hover:text-blue-400 text-white">
+              Pielęgnacja
+            </h3>
+            <p>
+              Studio Perfect Pet oferuje grooming wystawowy niektórych ras.<br />
+              Specjalizacja Cocker spaniel angielski, Golden Retriever, Sznaucer.<br />
+              Aby umówić inne rasy-Proszę o wcześniejszy kontakt.
+            </p>
+          </ul>
+          <ul className='list-disc pl-4'>
+            <h3 className="text-2xl font-bold mb-2 mt-4 hover:text-blue-400 text-white">
+              Strzyżenie
+            </h3>
+            <p>
+              Strzyżenie psów rasowych oraz mieszańców.
+              Perfekcyjne modne stylizacje na życzenie klienta.<br />
+              Zmniejszanie objętośći okrywy włosowej, strzyżenie nożyczkami, korekty groomerskie.
+              <br />Wizyty dla szczeniaczków do 3 miesiąca życia-Pierwszy kontakt.
+              Strzyżenie psów bardzo dużych.
+            </p>
+          </ul>
+          <ul className='list-disc pl-4'>
+            <h3 className="text-2xl font-bold mb-2 mt-4 hover:text-blue-400 text-white">
+              Trymowanie
+            </h3>
+            <p>
+              Trymowanie to usuwanie martwej okrywy włosowej.
+              Oferuje trymowanie: <br />spanieli, terierów, seterów, golden retrieverów, wyżłów, psów o szorstkiej strukturze szaty.<br />
+              Usuwanie martwej okrywy włosowej z psów tzw "sypiących się" np beagle, <br />labradory, boksery, gładkowłose rasy.<br />
+              Zabieg poprawia ukrwienie włosa, sprawia, że szata psa jest łatwa do pielęgnacji i przestaje się kołtunić.
+            </p>
+          </ul>
+          <div className='flex justify-center'>
+            <img src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
+          </div>
         </div>
       </div>
       <div className='max-w-[1240px] mx-auto py-4 px-4 text-center'>
