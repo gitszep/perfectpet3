@@ -22,7 +22,7 @@ const PetGroomingStudio = () => {
         <div className="max-w-[1240px] px-4">
           <ul className="list-disc pl-4">
             <li>Strzyżenie według wzorców FCI.</li>
-            {/* Other services... */}
+            { /* Other services... */ }
           </ul>
           {/* Other service sections */}
         </div>

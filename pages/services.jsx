@@ -1,7 +1,6 @@
 import React from 'react';
 import Tekst6 from '../components/Tekst6';
 import Footer from '../components/Footer';
-import Support from '../components/Support';
 
 const about = () => {
   return (
