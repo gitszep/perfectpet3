@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image';
 
 const Tekst = () => {
   return (
@@ -102,7 +103,7 @@ Zabieg poprawia ukrwienie włosa,sprawia ze szata psa jest łatwa do pielęgnacj
 
          
           <div className='flex justify-center'>
-            <img src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
+            <Image src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
           </div>
         </div>
         

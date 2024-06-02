@@ -6,6 +6,7 @@ import {
   faCircleChevronRight, 
   faCircleXmark
 } from '@fortawesome/free-solid-svg-icons'
+import Image from 'next/image'
 
 
 const WSPGallery = ({galleryImages}) => {
@@ -46,7 +47,7 @@ const WSPGallery = ({galleryImages}) => {
           <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} />
           <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
           <div className='fullScreenImage'>
-            <img src={galleryImages[slideNumber].img} alt='' />
+            <Image src={galleryImages[slideNumber].img} alt='' />
           </div>
         </div>
       }

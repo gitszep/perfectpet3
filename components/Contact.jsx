@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import Image from 'next/image';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xayrkyzq");
@@ -15,7 +16,7 @@ const Contact = () => {
       </h1>
       <div className="max-w-[1240px] mx-auto px-4 text-center">
         <div className='flex justify-center'>
-          <img src="negro.webp" className='photostyle2' alt="Pet Grooming" />
+          <Image src="negro.webp" className='photostyle2' alt="Pet Grooming" />
         </div>
       </div>
       <div className='max-w-[1240px] m-auto p-4 '>

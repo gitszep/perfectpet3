@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Tekst = () => {
   return (
@@ -6,7 +7,7 @@ const Tekst = () => {
        
       <div className="max-w-[1240px] mx-auto px-4 text-center">
       <div className='flex justify-center'>
-        <img src="negro.webp" className='photostyle2' alt="Pet Grooming" />
+        <Image src="negro.webp" className='photostyle2' alt="Pet Grooming" />
       </div>
       </div>
        <div>
@@ -63,7 +64,7 @@ const Tekst = () => {
             <li>Doradztwo z zakresu dalszej pielęgnacji,opracowanie indywidualnego planu pielęgnacji zwierzaka,możliwość zakupu profesjonalnych produktów</li>
         </ul>
           <div className='flex justify-center'>
-            <img src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
+            <Image src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
           </div>
         </div>
       </div>

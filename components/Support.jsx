@@ -94,7 +94,7 @@ const Support = () => {
             ))}
           </div>
           <div className='flex justify-center mt-10 mb-10'>
-        <img src="negro.webp" className='photostyle2' alt="Negro4"/>
+        <Image src="negro.webp" className='photostyle2' alt="Negro4"/>
       </div>
       <div className="flex justify-center items-center mt-2 mb-10">
       <Link href="/contact">

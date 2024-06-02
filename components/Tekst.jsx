@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Tekst = () => {
   return (
@@ -8,7 +9,7 @@ const Tekst = () => {
       </h1>
       <div className="max-w-[1240px] mx-auto px-4 text-center">
       <div className='flex justify-center'>
-        <img src="negro.webp" className='photostyle2' alt="Pet Grooming" />
+        <Image src="negro.webp" className='photostyle2' alt="Pet Grooming" />
       </div>
       </div>
        <div>
@@ -73,7 +74,7 @@ Pracuję na nowoczesnym sprzęcie renomowanych firm groomerskich oraz z doskona�
 Strzyżenie nie musi być stresujące.
           </p>
           <div className='flex justify-center'>
-            <img src="negro.webp" className="photostyle mt-12" alt="Image 1"/>
+            <Image src="negro.webp" className="photostyle mt-12" alt="Image 1"/>
           </div>
         </div>
       </div>

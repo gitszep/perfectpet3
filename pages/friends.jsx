@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Slider2 from '../components/Slider2';
 import Slider3 from '../components/Slider3';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 const about = () => {
@@ -30,7 +31,7 @@ const about = () => {
 
 
       <div className='flex justify-center'>
-            <img src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
+            <Image src="negro.webp" className="photostyle2 mt-12" alt="Image 1"/>
           </div>
       
           <div className="flex justify-center items-center mt-10 mb-10">

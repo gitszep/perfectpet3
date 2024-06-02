@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider2 from './Slider2'
-2
+import Image from 'next/image';
+
 const Tekst = () => {
   return (
     <div className="flex flex-col items-center justify-center h-full">
@@ -9,7 +10,7 @@ const Tekst = () => {
       </h1>
       <div className="max-w-[1240px] mx-auto px-4 text-center">
       <div className='flex justify-center'>
-        <img src="negro.webp" className='photostyle2' alt="Pet Grooming" />
+        <Image src="negro.webp" className='photostyle2' alt="Pet Grooming" />
       </div>
       </div>
        <div>
